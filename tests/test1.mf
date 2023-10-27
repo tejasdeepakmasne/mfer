@@ -1,0 +1,7 @@
+var gayDudi = "GayDudi"
+
+var a = 10
+
+fn (a) {
+    return gayDudi * 10
+}
