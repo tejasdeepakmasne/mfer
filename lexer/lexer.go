@@ -381,7 +381,7 @@ func RunLexerFromFile(filePath string) []Token {
 
 func RunLexerPrompt() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("Mayfair lexer REPL")
+	fmt.Println("Mayfair lexer REPL. Enter quit to exit")
 	for {
 		fmt.Print("\n-->> ")
 		line, err := reader.ReadString('\n')
